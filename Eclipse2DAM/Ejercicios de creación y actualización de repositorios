@@ -1,1 +1,46 @@
+Ejercicio 1:
+git config --global user.name “[firstname lastname]”
+git config --global user.email “[valid-email]”
+git config --global color.ui auto
+git status
+
+Ejercicio 2:
+cd ruta/del/directorio
+git init libro
+git log
+
+Ejercicio 3:
+git status
+touch indice.txt
+nano indice.txt
+
+Capítulo 1: Introducción a Git
+Capítulo 2: Flujo de trabajo básico
+Capítulo 3: Repositorios remotos
+
+git add [indice.txt]
+git commit -m
+git status
+
+Ejercicio 4:
+git commit -m [Añadido índice del libro]
+git status
+
+Ejercicio 5:
+nano indice.txt
+
+Capítulo 1: Introducción a Git
+Capítulo 2: Flujo de trabajo básico
+Capítulo 3: Gestión de ramas
+Capítulo 4: Repositorios remotos
+
+git status
+git commit -m [Añadido capítulo 3 sobre gestión de ramas]
+
+Ejercicio 6:
+git diff Libro^ Libro
+git commit --amend
+Añadido capítulo 3 sobre gestión de ramas al índice.
+git log
+
 
