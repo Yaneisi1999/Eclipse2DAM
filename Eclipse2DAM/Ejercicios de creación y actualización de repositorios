@@ -11,15 +11,11 @@ git log
 
 Ejercicio 3:
 git status
-touch indice.txt
-nano indice.txt
-
-Capítulo 1: Introducción a Git
-Capítulo 2: Flujo de trabajo básico
-Capítulo 3: Repositorios remotos
-
-git add [indice.txt]
-git commit -m
+echo -e "Capítulo 1: Introducción a Git\nCapítulo 2: Flujo de trabajo básico\nCapítulo 3: Repositorios remotos" > indice.txt
+git add indice.txt
+git commit -m [Añadir indice.txt con contenido]
+git status
+git add indice.txt
 git status
 
 Ejercicio 4:
@@ -27,20 +23,15 @@ git commit -m [Añadido índice del libro]
 git status
 
 Ejercicio 5:
-nano indice.txt
-
-Capítulo 1: Introducción a Git
-Capítulo 2: Flujo de trabajo básico
-Capítulo 3: Gestión de ramas
-Capítulo 4: Repositorios remotos
-
-git status
+echo -e "Capítulo 1: Introducción a Git\nCapítulo 2: Flujo de trabajo básico\nCapítulo 3: Gestión de ramas\nCapítulo 4: Repositorios remotos" > indice.txt
+git add indice.txt
+git diff
+git diff --staged
 git commit -m [Añadido capítulo 3 sobre gestión de ramas]
 
 Ejercicio 6:
 git diff Libro^ Libro
-git commit --amend
-Añadido capítulo 3 sobre gestión de ramas al índice.
+git commit --amend -m [Añadido capítulo 3 sobre gestión de ramas al índice.]
 git log
 
 
